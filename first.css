@@ -1,0 +1,28 @@
+#slider{
+    width: 400px;
+    height: 400px;
+    animation: animations 9s infinite;
+    background-size: 70%;
+    margin-top: 12%;
+    background-repeat: no-repeat;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+@keyframes animations{
+    0%{background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Spider-Man_Into_the_Spider-Verse_poster.png/220px-Spider-Man_Into_the_Spider-Verse_poster.png);}
+    10%{background-image: url(https://m.media-amazon.com/images/M/MV5BZDY5ODFhZjctZGIxNi00YzBmLThmYzItNDdmZTFmNWUwZWQ1XkEyXkFqcGdeQW1yb3NzZXI@._V1_QL75_UY281_CR8,0,500,281_.jpg);}
+    20%{background-image: url(https://www.hollywoodreporter.com/wp-content/uploads/2018/12/spiderverse_mkt_mkp148_publicity_still_final_ykassai-h_2018.jpg?w=1296);}
+    35%{background-image: url(https://hips.hearstapps.com/hmg-prod/images/spider-man-across-the-spider-verse-1642154456.jpg?crop=0.839xw:1.00xh;0.0809xw,0&resize=1200:*);}
+    45%{background-image: url(https://m.media-amazon.com/images/M/MV5BMzI0NmVkMjEtYmY4MS00ZDMxLTlkZmEtMzU4MDQxYTMzMjU2XkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_.jpg);}
+    55%{background-image: url(https://images.thedirect.com/media/article_full/spider-verse-3.jpg);}
+    65%{background-image: url(https://images.thedirect.com/media/article_full/into-spider-verse-disney-plus.jpg);}
+    75%{background-image: url(https://i.ytimg.com/vi/shW9i6k8cB0/maxresdefault.jpg);}
+    85%{background-image: url(https://images.squarespace-cdn.com/content/v1/54fc8146e4b02a22841f4df7/1564145047393-BKIMURXRA6WROQ1K5I45/image-asset.jpeg);}
+    100%{background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/Spider-Man_Into_the_Spider-Verse_poster.png/220px-Spider-Man_Into_the_Spider-Verse_poster.png);}
+
+}
